@@ -9,7 +9,7 @@
  */
 package level1;
 
-public class Problem3 {
+public class Problem003 {
 
 	private static long NUMBER = 600851475143L;
 	

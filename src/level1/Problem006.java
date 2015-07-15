@@ -15,7 +15,7 @@ Find the difference between the sum of the squares of the first one hundred natu
 */
 package level1;
 
-public class Problem6 {
+public class Problem006 {
 	
 	private static int RANGE = 100;
 	

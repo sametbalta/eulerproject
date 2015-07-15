@@ -1,5 +1,5 @@
 /**
- * Largest product in a series
+ * Special Pythagorean triplet
  * https://projecteuler.net/problem=9
  */
 /* 
@@ -13,7 +13,7 @@
  */
 package level1;
 
-public class Problem9 {
+public class Problem009 {
 
 	private static int TOTAL = 1000;
 

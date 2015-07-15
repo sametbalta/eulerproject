@@ -11,7 +11,7 @@
  */
 package level1;
 
-public class Problem2 {
+public class Problem002 {
 	
 	private static int RANGE = 4000000;
 	private static int ANSWER = 0;

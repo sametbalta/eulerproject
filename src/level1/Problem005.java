@@ -8,16 +8,17 @@
  */
 package level1;
 
-public class Problem5 {
+public class Problem005 {
 
 	public static void main(String[] args) {
-		long answer = 2520 * 11 * 13 * 17 * 19;
+		System.out.println((int)1.42913828926E11);
+		int answer = 2520 * 11 * 13 * 17 * 19;
 		while(!check(answer++));
 		--answer;
 		System.out.println("Answer: " + answer);
 	}
 	
-	public static boolean check(long n) {
+	public static boolean check(int n) {
 		for(int i = 20; i > 10; i--) {
 			if(n % i != 0) {
 				return false;

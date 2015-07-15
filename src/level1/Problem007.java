@@ -9,12 +9,12 @@ What is the 10001st prime number?
 */
 package level1;
 
-public class Problem7 {
+public class Problem007 {
 	
 	private static int N = 10001;
 	
 	public static void main(String[] args) {
-		long answer = 2;
+		int answer = 2;
 		int i = 1;
 		while(i <= N) {
 			if(isPrime(++answer)) {
@@ -24,8 +24,8 @@ public class Problem7 {
 		System.out.println("Answer: " + answer);
 	}
 
-	private static boolean isPrime(long number) {
-		for(int i = 2; i < number / 2; i++) {
+	private static boolean isPrime(int number) {
+		for(int i = 2; i < number / 2 + 1; i++) {
 			if(number % i == 0) {
 				return false;
 			}
