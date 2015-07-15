@@ -7,7 +7,7 @@
  * 
  * What is the largest prime factor of the number 600851475143 ?
  */
-package page1;
+package level1;
 
 public class Problem3 {
 
